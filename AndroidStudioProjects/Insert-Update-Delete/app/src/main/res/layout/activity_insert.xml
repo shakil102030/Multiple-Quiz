@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    android:freezesText="true"
+    tools:context="com.example.shakil.insert_update_delete.Insert">
+
+    <EditText
+        android:id="@+id/UsernameEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Name"
+        android:layout_margin="20dp"
+        android:background="@color/colorWhite"
+        android:padding="10dp"
+        android:freezesText="true"
+        />
+
+    <EditText
+        android:id="@+id/PasswordEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:background="@color/colorWhite"
+        android:freezesText="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:freezesText="true">
+
+        <Button
+            android:id="@+id/SaveButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:textStyle="bold"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="40dp"
+            android:textColor="#fff"
+            android:freezesText="true"
+
+            />
+        <Button
+            android:id="@+id/ShowButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="show"
+            android:textStyle="bold"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="20dp"
+            android:textColor="#fff"
+            android:freezesText="true"
+            />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
