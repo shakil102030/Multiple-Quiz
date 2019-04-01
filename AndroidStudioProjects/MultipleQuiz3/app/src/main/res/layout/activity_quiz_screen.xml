@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:freezesText="true"
+    tools:context="com.example.shakil.multiplequiz.QuizScreen">
+
+    <TextView
+        android:id="@+id/DicultyTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AAA"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:freezesText="true"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/ScoreTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CCC"
+        android:textSize="19sp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/QuestionTextId"
+        android:freezesText="true"
+        />
+    <TextView
+        android:id="@+id/QuestionTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BBB"
+        android:textSize="19sp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/DicultyTextId"
+        android:freezesText="true"
+        />
+
+    <TextView
+        android:id="@+id/AllQuestionTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DDD"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:textAlignment="center"
+        android:layout_margin="25dp"
+        android:layout_above="@+id/RadioGroupId"
+        android:freezesText="true"
+        android:paddingLeft="10dp"
+
+        />
+
+    <RadioGroup
+        android:id="@+id/RadioGroupId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:freezesText="true">
+
+        <RadioButton
+            android:id="@+id/Number1RadioButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/N1"
+            android:freezesText="true"
+            />
+        <RadioButton
+            android:id="@+id/Number2RadioButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/N2"
+            android:freezesText="true"
+            />
+        <RadioButton
+            android:id="@+id/Number3RadioButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/N3"
+            android:freezesText="true"
+            />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/ConfirmButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Buton1"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/RadioGroupId"
+        android:layout_marginTop="15dp"
+        android:layout_margin="20dp"
+        android:textColor="#fff"
+        android:freezesText="true"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:freezesText="true"
+    tools:context="com.example.shakil.multiplequiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:freezesText="true">
+
+
+        <TextView
+            android:id="@+id/emailId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/AA"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:freezesText="true"
+
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:freezesText="true">
+
+            <Button
+                android:id="@+id/logoutId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/BB"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#fff"
+                android:freezesText="true"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/A"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:textSize="35dp"
+        android:textColor="@color/colorBlack"
+        android:freezesText="true"
+        />
+
+    <TextView
+        android:id="@+id/HighScoreTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CC"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textColor="@color/colorBlack"
+        android:layout_above="@+id/StartQuizButtonId"
+        android:freezesText="true"
+        />
+
+    <Button
+        android:id="@+id/StartQuizButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DD"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:freezesText="true"
+        android:textStyle="italic"
+        />
+
+
+    <Spinner
+        android:id="@+id/SpinnerDifficultyId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/StartQuizButtonId"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="130dp"
+        android:freezesText="true">
+    </Spinner>
+    <Spinner
+        android:id="@+id/Spinnerforeignkey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SpinnerDifficultyId"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="130dp"
+        android:freezesText="true">
+    </Spinner>
+
+
+
+
+
+
+
+</RelativeLayout>

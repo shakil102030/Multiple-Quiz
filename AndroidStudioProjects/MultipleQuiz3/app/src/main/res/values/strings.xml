@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Multiple Quiz</string>
+
+    <string name="A">My Quiz App</string>
+    <string name="B">UserName/Email</string>
+    <string name="C">Password</string>
+    <string name="D">Rigister</string>
+    <string name="E">Login</string>
+    <string name="F">Back to login</string>
+    <string name="AA"> You are logged in</string>
+    <string name="BB">Logout</string>
+    <string name="CC">High Score : 0</string>
+    <string name="DD">Start Quiz</string>
+    <string name="AAA">Difficulty</string>
+    <string name="BBB">Question : 1/x</string>
+    <string name="CCC">Score : 0</string>
+    <string name="DDD">Question\nQuestion</string>
+    <string name="N1">Number1</string>
+    <string name="N2">Number2</string>
+    <string name="N3">Number3</string>
+    <string name="Buton1">Next</string>
+
+
+</resources>
