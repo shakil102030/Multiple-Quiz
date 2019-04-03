@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shakil.sujon">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Integer" />
+        <activity android:name=".Password" />
+        <activity android:name=".Login" />
+        <activity android:name=".Timepicker" />
+        <activity android:name=".time_Picker" />
+        <activity android:name=".AUTOCOMPLETE" />
+        <activity android:name=".TIMEPICKERDialog" />
+        <activity android:name=".DATEPICKER" />
+        <activity android:name=".TIMEPICKERACTIVITY" />
+        <activity android:name=".Services" />
+
+        <service
+            android:name=".TheService"
+            android:exported="false" />
+
+        <activity android:name=".Hundle_Service" />
+
+        <service
+            android:name=".MyService"
+            android:exported="false" />
+
+        <activity android:name=".GRIDVIEW" />
+        <activity android:name=".FRAGMENT"></activity>
+    </application>
+
+</manifest>
