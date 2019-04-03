@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shakil.shakil">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TakePhoto" />
+        <activity android:name=".Photo" />
+        <activity android:name=".sharepreference" />
+        <activity android:name=".Reletiv" />
+        <activity android:name=".Fram" />
+        <activity android:name=".ACTION_BAR" />
+        <activity android:name=".ALERT" />
+        <activity android:name=".TABLE" />
+        <activity android:name=".RATING_BAR" />
+        <activity android:name=".FRAMELAYOUT" />
+        <activity android:name=".SEEKBAR" />
+        <activity android:name=".XMLTRICK" />
+        <activity android:name=".SERVICE" />
+
+        <service
+            android:name=".MyService"
+            android:exported="false" />
+
+        <activity android:name=".SEARCH" />
+        <activity android:name=".Option_menu" />
+        <activity android:name=".Custom_View" />
+        <activity android:name=".UPBUTTONACTIVITY" />
+        <activity
+            android:name=".ActivityA"
+            android:parentActivityName=".UPBUTTONACTIVITY">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UPBUTTONACTIVITY"></meta-data>
+        </activity>
+        <activity
+            android:name=".ActivityB"
+            android:parentActivityName=".UPBUTTONACTIVITY">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UPBUTTONACTIVITY"></meta-data>
+        </activity>
+        <activity android:name=".FRAGMENT" />
+    </application>
+
+</manifest>

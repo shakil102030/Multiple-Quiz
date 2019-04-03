@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shakil.shakil.FRAMELAYOUT">
+
+    <Button
+        android:id="@+id/framebuttonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="See Action"
+        android:background="@color/colorAccent"
+        android:textStyle="bold"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="10dp"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="See Photo"
+                android:background="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingTop="10dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/we"/>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Any picture"
+                android:background="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingTop="10dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/uber"/>
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+
+</LinearLayout>
